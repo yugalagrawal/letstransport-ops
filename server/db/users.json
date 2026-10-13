@@ -1,0 +1,88 @@
+{
+  "users": [
+    {
+      "email": "sales1@letstransport.in",
+      "name": "Priya Sharma",
+      "role": "SALES",
+      "roles": [
+        "SALES",
+        "OPS",
+        "BizFin_admin",
+        "CRE",
+        "Tripsheet_exec",
+        "OPM",
+        "FieldOps",
+        "ADMIN",
+        "Sales_admin",
+        "CDE_UPC",
+        "Payment_exec",
+        "FQLC"
+      ]
+    },
+    {
+      "email": "sales2@letstransport.in",
+      "name": "Rohit Verma",
+      "role": "SALES",
+      "roles": [
+        "SALES",
+        "OPS"
+      ]
+    },
+    {
+      "email": "ops1@letstransport.in",
+      "name": "Amit Kumar",
+      "role": "OPS",
+      "roles": [
+        "OPS"
+      ]
+    },
+    {
+      "email": "admin@letstransport.in",
+      "name": "Yugal Agarwal",
+      "role": "ADMIN",
+      "roles": [
+        "ADMIN"
+      ]
+    },
+    {
+      "email": "fo1@letstransport.in",
+      "name": "Rajan Pillai",
+      "role": "FieldOps",
+      "roles": [
+        "FieldOps"
+      ]
+    },
+    {
+      "email": "cde1@letstransport.in",
+      "name": "Kavya Nair",
+      "role": "CDE_UPC",
+      "roles": [
+        "CDE_UPC"
+      ]
+    },
+    {
+      "email": "cre1@letstransport.in",
+      "name": "Ankit Mehta",
+      "role": "CRE",
+      "roles": [
+        "CRE"
+      ]
+    },
+    {
+      "email": "ts1@letstransport.in",
+      "name": "Suresh Reddy",
+      "role": "Tripsheet_exec",
+      "roles": [
+        "Tripsheet_exec"
+      ]
+    },
+    {
+      "email": "pay1@letstransport.in",
+      "name": "Meena Joshi",
+      "role": "Payment_exec",
+      "roles": [
+        "Payment_exec"
+      ]
+    }
+  ]
+}

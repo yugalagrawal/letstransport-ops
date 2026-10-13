@@ -1,0 +1,264 @@
+{
+  "functions": [
+    {
+      "id": "onboarding.create",
+      "label": "Create Client Onboarding",
+      "module": "Client Onboarding"
+    },
+    {
+      "id": "onboarding.view",
+      "label": "View Onboarding Drafts",
+      "module": "Client Onboarding"
+    },
+    {
+      "id": "approvals.sales",
+      "label": "Sales Approvals",
+      "module": "Client Approvals"
+    },
+    {
+      "id": "approvals.bizfin",
+      "label": "BizFin Approvals",
+      "module": "Client Approvals"
+    },
+    {
+      "id": "approvals.opm",
+      "label": "OPM Approvals",
+      "module": "Client Approvals"
+    },
+    {
+      "id": "msa.view",
+      "label": "View MSA / Rate Card",
+      "module": "MSA & Rate Card"
+    },
+    {
+      "id": "msa.manage",
+      "label": "Manage MSA / Rate Card",
+      "module": "MSA & Rate Card"
+    },
+    {
+      "id": "pod.view",
+      "label": "View POD Metadata",
+      "module": "POD & Invoice"
+    },
+    {
+      "id": "pod.manage",
+      "label": "Manage POD Metadata",
+      "module": "POD & Invoice"
+    },
+    {
+      "id": "invoice.view",
+      "label": "View Invoice Metadata",
+      "module": "POD & Invoice"
+    },
+    {
+      "id": "invoice.manage",
+      "label": "Manage Invoice Metadata",
+      "module": "POD & Invoice"
+    },
+    {
+      "id": "mis.view",
+      "label": "View MIS Template",
+      "module": "MIS"
+    },
+    {
+      "id": "dashboard.sales",
+      "label": "Sales Dashboard",
+      "module": "Dashboards"
+    },
+    {
+      "id": "dashboard.opm",
+      "label": "OPM Dashboard",
+      "module": "Dashboards"
+    },
+    {
+      "id": "dashboard.ops",
+      "label": "Ops Dashboard",
+      "module": "Dashboards"
+    },
+    {
+      "id": "clients.view",
+      "label": "View My Clients",
+      "module": "Clients"
+    },
+    {
+      "id": "bookings.create",
+      "label": "Create Bookings",
+      "module": "Bookings"
+    },
+    {
+      "id": "bookings.view",
+      "label": "View Bookings",
+      "module": "Bookings"
+    },
+    {
+      "id": "trips.view",
+      "label": "My Trips Dashboard",
+      "module": "Trips"
+    },
+    {
+      "id": "listing.view",
+      "label": "Listing Dashboard",
+      "module": "Listings"
+    },
+    {
+      "id": "attendance.intra",
+      "label": "Attendance (Intra)",
+      "module": "Attendance"
+    },
+    {
+      "id": "bidding.view",
+      "label": "Bidding Loads",
+      "module": "Bidding"
+    },
+    {
+      "id": "expenses.create",
+      "label": "Create Expenses",
+      "module": "Expenses"
+    },
+    {
+      "id": "expenses.view",
+      "label": "View Expenses",
+      "module": "Expenses"
+    },
+    {
+      "id": "verification.view",
+      "label": "Verification Dashboard",
+      "module": "Verification"
+    },
+    {
+      "id": "permissions.manage",
+      "label": "Manage User Permissions",
+      "module": "Admin"
+    }
+  ],
+  "roleDefaults": {
+    "SALES": [
+      "onboarding.create",
+      "onboarding.view",
+      "msa.view",
+      "dashboard.sales"
+    ],
+    "Sales_admin": [
+      "approvals.sales",
+      "msa.view",
+      "msa.manage",
+      "dashboard.sales"
+    ],
+    "BizFin_admin": [
+      "approvals.bizfin",
+      "msa.view",
+      "msa.manage",
+      "pod.view",
+      "pod.manage",
+      "invoice.view",
+      "invoice.manage",
+      "mis.view",
+      "dashboard.sales"
+    ],
+    "OPM": [
+      "dashboard.opm",
+      "approvals.opm",
+      "clients.view",
+      "bookings.create",
+      "bookings.view",
+      "attendance.intra",
+      "listing.view",
+      "trips.view"
+    ],
+    "OPS": [
+      "dashboard.ops"
+    ],
+    "ADMIN": [
+      "permissions.manage"
+    ],
+    "FieldOps": [
+      "attendance.intra"
+    ],
+    "CDE_UPC": [
+      "bidding.view"
+    ],
+    "CRE": [
+      "bidding.view"
+    ],
+    "Tripsheet_exec": [
+      "dashboard.ops"
+    ],
+    "Payment_exec": [
+      "expenses.create",
+      "expenses.view"
+    ],
+    "FQLC": [
+      "verification.view"
+    ]
+  },
+  "userOverrides": [
+    {
+      "email": "sales1@letstransport.in",
+      "appliedRoles": [
+        "SALES",
+        "OPS",
+        "BizFin_admin",
+        "CRE",
+        "Tripsheet_exec",
+        "OPM",
+        "FieldOps",
+        "ADMIN",
+        "Sales_admin",
+        "CDE_UPC",
+        "Payment_exec",
+        "FQLC"
+      ],
+      "functions": [
+        "onboarding.create",
+        "onboarding.view",
+        "msa.view",
+        "dashboard.sales",
+        "dashboard.ops",
+        "approvals.bizfin",
+        "msa.manage",
+        "pod.view",
+        "pod.manage",
+        "invoice.view",
+        "invoice.manage",
+        "mis.view",
+        "bidding.view",
+        "dashboard.opm",
+        "approvals.opm",
+        "clients.view",
+        "bookings.create",
+        "bookings.view",
+        "attendance.intra",
+        "listing.view",
+        "trips.view",
+        "permissions.manage",
+        "approvals.sales",
+        "expenses.create",
+        "expenses.view",
+        "verification.view"
+      ]
+    },
+    {
+      "email": "admin@letstransport.in",
+      "appliedRoles": [
+        "ADMIN"
+      ],
+      "functions": [
+        "permissions.manage"
+      ]
+    },
+    {
+      "email": "sales2@letstransport.in",
+      "appliedRoles": [
+        "SALES",
+        "OPS"
+      ],
+      "functions": [
+        "onboarding.create",
+        "onboarding.view",
+        "msa.view",
+        "dashboard.sales",
+        "dashboard.ops"
+      ]
+    }
+  ]
+}

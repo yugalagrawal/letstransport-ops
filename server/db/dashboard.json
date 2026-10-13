@@ -1,0 +1,17 @@
+{
+  "kpis": [
+    { "id": "trips_today",      "label": "Trips Today",       "value": 142,  "unit": "",    "trend": "+8%",  "trendUp": true  },
+    { "id": "active_drivers",   "label": "Active Drivers",    "value": 87,   "unit": "",    "trend": "+3",   "trendUp": true  },
+    { "id": "pending_orders",   "label": "Pending Orders",    "value": 23,   "unit": "",    "trend": "-5",   "trendUp": false },
+    { "id": "on_time_delivery", "label": "On-Time Delivery",  "value": 94.2, "unit": "%",   "trend": "+1.2%","trendUp": true  },
+    { "id": "revenue_today",    "label": "Revenue Today",     "value": 182400, "unit": "₹", "trend": "+12%", "trendUp": true  },
+    { "id": "vehicles_active",  "label": "Vehicles Active",   "value": 74,   "unit": "",    "trend": "0",    "trendUp": true  }
+  ],
+  "recentTrips": [
+    { "id": "T-9921", "origin": "Delhi",     "destination": "Gurgaon",   "status": "completed", "driver": "Ramesh K.",  "time": "09:14" },
+    { "id": "T-9920", "origin": "Mumbai",    "destination": "Pune",      "status": "in_transit","driver": "Suresh P.",  "time": "08:52" },
+    { "id": "T-9919", "origin": "Bangalore", "destination": "Chennai",   "status": "in_transit","driver": "Anil M.",    "time": "08:30" },
+    { "id": "T-9918", "origin": "Hyderabad", "destination": "Vijayawada","status": "completed", "driver": "Kiran R.",   "time": "07:55" },
+    { "id": "T-9917", "origin": "Delhi",     "destination": "Noida",     "status": "pending",   "driver": "Unassigned", "time": "07:40" }
+  ]
+}

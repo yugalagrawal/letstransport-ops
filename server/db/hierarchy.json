@@ -1,0 +1,36 @@
+{
+  "groups": [
+    { "id": "GRP-001", "name": "1FKT" },
+    { "id": "GRP-002", "name": "1ZML" },
+    { "id": "GRP-003", "name": "1MNT" }
+  ],
+  "legalEntities": [
+    { "id": "LE-001", "groupId": "GRP-001", "name": "Flipkart Internet Private Limited",   "pan": "AABCF1234A" },
+    { "id": "LE-002", "groupId": "GRP-001", "name": "Flipkart India Private Limited",      "pan": "AABCF5678B" },
+    { "id": "LE-003", "groupId": "GRP-002", "name": "Zomato Limited",                      "pan": "AAICZ1234B" },
+    { "id": "LE-004", "groupId": "GRP-003", "name": "Myntra Designs Private Limited",      "pan": "AABCM5678C" }
+  ],
+  "verticals": [
+    { "id": "VRT-001", "leId": "LE-001", "name": "E-Commerce"     },
+    { "id": "VRT-002", "leId": "LE-001", "name": "Grocery"        },
+    { "id": "VRT-003", "leId": "LE-002", "name": "Wholesale"      },
+    { "id": "VRT-004", "leId": "LE-003", "name": "Food Delivery"  },
+    { "id": "VRT-005", "leId": "LE-004", "name": "Fashion"        }
+  ],
+  "stateGstins": [
+    { "id": "SGT-001", "leId": "LE-001", "verticalId": "VRT-001", "state": "Karnataka",   "gstin": "29AABCF1234A1Z5" },
+    { "id": "SGT-002", "leId": "LE-001", "verticalId": "VRT-001", "state": "Maharashtra", "gstin": "27AABCF1234A1Z3" },
+    { "id": "SGT-003", "leId": "LE-001", "verticalId": "VRT-002", "state": "Delhi",       "gstin": "07AABCF1234A1Z1" },
+    { "id": "SGT-004", "leId": "LE-003", "verticalId": "VRT-004", "state": "Delhi",       "gstin": "07AAICZ1234B1Z3" },
+    { "id": "SGT-005", "leId": "LE-004", "verticalId": "VRT-005", "state": "Karnataka",   "gstin": "29AABCM5678C1Z2" }
+  ],
+  "cities": [
+    { "id": "CTY-001", "stateGstinId": "SGT-001", "name": "Bangalore" },
+    { "id": "CTY-002", "stateGstinId": "SGT-001", "name": "Mysore"    },
+    { "id": "CTY-003", "stateGstinId": "SGT-002", "name": "Mumbai"    },
+    { "id": "CTY-004", "stateGstinId": "SGT-002", "name": "Pune"      },
+    { "id": "CTY-005", "stateGstinId": "SGT-003", "name": "Delhi"     },
+    { "id": "CTY-006", "stateGstinId": "SGT-004", "name": "Delhi"     },
+    { "id": "CTY-007", "stateGstinId": "SGT-005", "name": "Bangalore" }
+  ]
+}

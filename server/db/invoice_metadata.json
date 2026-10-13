@@ -1,0 +1,19 @@
+[
+  {
+    "id": "INV-001",
+    "verticalName": "BigBasket Grocery",
+    "city": "Bangalore",
+    "partialInvoicing": false,
+    "partialMIS": false,
+    "misFrequency": "Custom",
+    "invoiceFrequency": "Day wise",
+    "invoiceType": "Soft Copy",
+    "misLevel": "Trip",
+    "invoiceLevel": "Trip",
+    "mis": false,
+    "misSubmissionType": "Client Approval Required",
+    "refDateRevenueControl": "LR date/Loading Date",
+    "remarks": "",
+    "updatedAt": "2026-06-09T06:47:12.417Z"
+  }
+]

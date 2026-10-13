@@ -1,0 +1,3 @@
+# Project Context
+
+`letstransport-ops` is an internal web operations console for LetsTransport (logistics company) that digitizes the client onboarding and field operations workflow. It supports role-based access for Sales, Sales Admin, BizFin Admin, OPM, and FieldOps personas. Sales reps initiate client onboarding via a 7-step wizard (Group → Legal Entity → Vertical → State GSTIN → POC → City → Commercial), which then flows through a two-stage approval pipeline (Sales Admin → BizFin Admin → OPM). OPMs manage their approved clients, create vehicle bookings, and FieldOps handle attendance. The app uses a React + Vite frontend (port 5173) proxied to an Express JSON-file backend (port 3001) with no real database — all data lives in `server/db/*.json` flat files.

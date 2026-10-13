@@ -1,0 +1,54 @@
+{
+  "partners": [
+    {
+      "id": "P001",
+      "partnerNumber": "P001",
+      "name": "Rajesh Kumar Transport",
+      "bankAccount": "1234567890124321",
+      "vehicles": [
+        { "id": "V001", "registration": "KA01AB1234", "type": "2W",                    "bodyType": "Open Body"   },
+        { "id": "V002", "registration": "KA01CD5678", "type": "1 TON-TATA ACE HT",    "bodyType": "Closed Body" }
+      ]
+    },
+    {
+      "id": "P002",
+      "partnerNumber": "P002",
+      "name": "Sunil Logistics Pvt Ltd",
+      "bankAccount": "9876543218765432",
+      "vehicles": [
+        { "id": "V003", "registration": "MH02XY9012", "type": "2.5 TON-TATA 407",     "bodyType": "Open Body"   },
+        { "id": "V004", "registration": "MH02ZA3456", "type": "3.5 TON-TATA 709",     "bodyType": "Closed Body" }
+      ]
+    },
+    {
+      "id": "P003",
+      "partnerNumber": "P003",
+      "name": "Arjun Carriers",
+      "bankAccount": "1122334452109876",
+      "vehicles": [
+        { "id": "V005", "registration": "DL03PQ3456", "type": "5 TON-EICHER 10.90",   "bodyType": "Open Body"   },
+        { "id": "V006", "registration": "DL03RS7890", "type": "7 TON-TATA 1109",      "bodyType": "Closed Body" }
+      ]
+    },
+    {
+      "id": "P004",
+      "partnerNumber": "P004",
+      "name": "Krishna Fast Movers",
+      "bankAccount": "5544332216543210",
+      "vehicles": [
+        { "id": "V007", "registration": "KA04UV1234", "type": "2W",                    "bodyType": "Open Body"   },
+        { "id": "V008", "registration": "KA04WX5678", "type": "3W / E-3W",             "bodyType": "Open Body"   }
+      ]
+    },
+    {
+      "id": "P005",
+      "partnerNumber": "P005",
+      "name": "Mehta Brothers Logistics",
+      "bankAccount": "6677889900987654",
+      "vehicles": [
+        { "id": "V009", "registration": "MH05YZ9012", "type": "0.5 TON-TATA ACE",     "bodyType": "Closed Body" },
+        { "id": "V010", "registration": "MH05AB3456", "type": "1.25 TON-ASHOK LEYLAND DOST", "bodyType": "Open Body" }
+      ]
+    }
+  ]
+}

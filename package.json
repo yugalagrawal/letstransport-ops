@@ -1,0 +1,14 @@
+{
+  "name": "letstransport-ops",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\" --names \"server,client\" --prefix-colors \"cyan,magenta\"",
+    "server": "cd server && npm run dev",
+    "client": "cd client && PORT=$PORT npm run dev",
+    "install:all": "npm install && cd server && npm install && cd ../client && npm install"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

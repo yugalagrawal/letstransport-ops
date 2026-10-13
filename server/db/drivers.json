@@ -1,0 +1,14 @@
+{
+  "drivers": [
+    { "id": "D001", "name": "Suresh Kumar",   "contact": "9876543210", "partnerId": "P001" },
+    { "id": "D002", "name": "Ramesh Yadav",   "contact": "8765432109", "partnerId": "P001" },
+    { "id": "D003", "name": "Manoj Singh",    "contact": "7654321098", "partnerId": "P002" },
+    { "id": "D004", "name": "Vijay Tiwari",   "contact": "6543210987", "partnerId": "P002" },
+    { "id": "D005", "name": "Anil Sharma",    "contact": "5432109876", "partnerId": "P003" },
+    { "id": "D006", "name": "Prakash Verma",  "contact": "9123456780", "partnerId": "P003" },
+    { "id": "D007", "name": "Deepak Gupta",   "contact": "8012345679", "partnerId": "P004" },
+    { "id": "D008", "name": "Ravi Patel",     "contact": "7901234568", "partnerId": "P004" },
+    { "id": "D009", "name": "Sanjay Mishra",  "contact": "9988776655", "partnerId": "P005" },
+    { "id": "D010", "name": "Kiran Das",      "contact": "8877665544", "partnerId": "P005" }
+  ]
+}

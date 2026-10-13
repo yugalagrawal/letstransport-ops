@@ -1,0 +1,47 @@
+[
+  {
+    "id": "EV-001",
+    "verticalName": "Swiggy Instamart",
+    "group": "Swiggy Group",
+    "tripMode": "Local",
+    "approvedBy": "salesadmin1@letstransport.in",
+    "approvedAt": "2026-05-20",
+    "draftId": "DRAFT-S7"
+  },
+  {
+    "id": "EV-002",
+    "verticalName": "Amazon Prime Last Mile",
+    "group": "Amazon India",
+    "tripMode": "Local",
+    "approvedBy": "salesadmin1@letstransport.in",
+    "approvedAt": "2026-05-28",
+    "draftId": "DRAFT-S8"
+  },
+  {
+    "id": "EV-003",
+    "verticalName": "Nykaa Fashion Delivery",
+    "group": "Nykaa Fashion",
+    "tripMode": "Local",
+    "approvedBy": "salesadmin1@letstransport.in",
+    "approvedAt": "2026-06-01",
+    "draftId": "DRAFT-S4"
+  },
+  {
+    "id": "EV-004",
+    "verticalName": "Flipkart Quick Commerce",
+    "group": "Flipkart Group",
+    "tripMode": "Upcountry",
+    "approvedBy": "salesadmin1@letstransport.in",
+    "approvedAt": "2026-06-03",
+    "draftId": "DRAFT-S9"
+  },
+  {
+    "id": "EV-005",
+    "verticalName": "Zomato Dark Store Replenishment",
+    "group": "Zomato Ltd",
+    "tripMode": "Upcountry",
+    "approvedBy": "salesadmin1@letstransport.in",
+    "approvedAt": "2026-06-05",
+    "draftId": "DRAFT-S5"
+  }
+]
